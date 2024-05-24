@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon City - Official Web Store | Dragon City Official Store</title>
+
+    <link rel="icon" href="assets/img/bookmark-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <div id="navigation"> 
+        <div id="logo">
+            <img src="https://i.imgur.com/cVm1roN.png" alt="">
+        </div>
+        <div id="store">
+
+            <a href="index.html">STORE</a>
+
+        </div>
+        <div id="daily">
+
+            <a href="HTML/DailyStreak.html">DAILYSTREAK</a>
+
+        </div>
+        <div id="game">
+
+            <a href="HTML/GAME.html">GAME</a>
+
+        </div>
+        <div id="news">
+
+            <a href="HTML/News.html">NEWS</a>
+
+        </div>
+        <div id="social" onclick="socialClick()">
+            SOCIAL
+            <p id="arrow">></p>
+        </div>
+    </div>
+
+    <div id="socialDrop">
+
+        <div id="discord">
+
+            <button onclick="location.href='https://discord.com/invite/dragoncity'" type="button">DISCORD</button>
+
+        </div>
+
+        <div id="facebook">
+
+            <button onclick="location.href='https://www.facebook.com/DragonCity/'" type="button">FACEBOOK</button>
+
+        </div>
+
+        <div id="instagram">
+
+            <button onclick="location.href='https://www.instagram.com/dragoncity/?hl=en'" type="button">INSTAGRAM</button>
+
+        </div>
+
+        <div id="youtube">
+
+            <button onclick="location.href='https://www.youtube.com/@DragonCityChannel'" type="button">YOUTUBE</button>
+
+        </div>
+
+        <div id="x">
+
+            <button onclick="location.href='https://twitter.com/DragonCityGame'" type="button">X</button>
+
+        </div>
+
+    </div>
+
+    <div id="connect">
+        <p>Connect to the game to purchase.</p>
+        <button onclick="LoginClick()">Log in</button>
+    </div>
+
+    <div id="backBlur"></div>
+
+    
+    <div id="qrcode">
+
+        <button onclick="qrXClick()">X</button>
+
+        <div id="center">
+
+            <div id="pic"> </div>
+
+        <div id="code">
+            <h4>Connect to the Dragon City Store!</h4>
+            <p>Connect to the game to purchase.</p>
+            <div id="qrpic"> </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- END OF NAVIGATION ----------------------------------------------------------------->
+
+
+    <div id="Store-Container">
+
+        <div id="webgift">
+            <p id="p1">Webstore Gift: VIP Egg!</p>
+            <p id="p2">Dragon City required. One redemption per Dragon City account. Terms apply.</p>
+            <div id="box1">
+                <div id="pic1" onclick="LoginClick()"></div>
+                <div id="text">
+                    <p>Webstore Gift: VIP Egg! <span>IN STOCK: 1</span> </p>
+                </div>
+                <div id="itembox">
+                     <div id="pic1"></div>
+                     <p>1</p>
+                </div>
+                <div id="button1">
+
+                    <button onclick="LoginClick()">CLAIM GIFT</button>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="devinepass">
+
+            <p id="p1">DIVINE PASS - GET THE DIVINE PASS</p>
+            <p id="p2">Unlock premium rewards with the Divine Pass!</p>
+            <p id="p3">The Divine Pass and Elite Pass are only active until the end of the current Season. The current Season ends at 10:00 CET, 2024-05-30.</p>
+            <p id="p4">Please note that only one Pass can be purchased on the Webstore, either the Divine Pass or Elite Pass. You can upgrade your Divine Pass to the Elite Pass in-game.</p>
+
+            <div id="boxes">
+
+                <div id="box1">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Web Only | Divine Pass <span>IN STOCK: 1</span> </p>
+                        <p id="text2">The Divine Pass allows you to claim premium rewards when you reach certain milestones. If these milestones have already been reached, you can claim the premium rewards found on these milestones upon purchase. Get your Divine Pass from the Webstore to get these shortly after upon purchase:</p>
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>10</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+                <div id="box2">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Web Only | Elite Pass <span>IN STOCK: 1</span> </p>
+                        <p id="text2">Along with all content of the Divine Pass, the Elite Pass will also provide you with an extra dragon slot inside the Divine Orbs Habitat and Event Boosters for the duration of the respective Season, as well as Orbs of premium dragons. Both the Divine Pass and the Elite Pass are only active until the end of the current Season. Get your Elite Pass from the Webstore to get these shortly after purchase:</p>
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>40</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+                <div id="box3">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Web Only | Elite Pass PLUS<span>IN STOCK: 1</span> </p>
+                        <p id="text2">Along with all content of the Divine Pass and the Elite Pass, the Elite Pass PLUS will also provide you with 200 Orbs of the new Heroic dragon. Get your Elite Pass PLUS from the Webstore to get these shortly after purchase:</p>
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>200</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>40</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- SPECIAL ---------------------------------------------------------------------------------->
+
+        <div id="special">
+
+            <p id="title">SPECIAL OFFERS - WEB ONLY</p>
+            
+            <div id="boxes">
+
+
+
+                <div id="box1">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Mythical Pack | Web Exclusive<span>IN STOCK: 1</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>30</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box2">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Webstore Pack PLUS </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>3.3k</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>15M</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item5">
+                            <div id="pic5"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item6">
+                            <div id="pic6"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item7">
+                            <div id="pic7"></div>
+                         <p>25</p>
+                         </div>
+
+                         <div id="item8">
+                            <div id="pic8"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box3">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Webstore Pack </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>2.2k</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>10M</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>10</p>
+                         </div>
+
+                         <div id="item5">
+                            <div id="pic5"></div>
+                         <p>10</p>
+                         </div>
+
+                         <div id="item6">
+                            <div id="pic6"></div>
+                         <p>10</p>
+                         </div>
+
+                         <div id="item7">
+                            <div id="pic7"></div>
+                         <p>10</p>
+                         </div>
+
+                         <div id="item8">
+                            <div id="pic8"></div>
+                         <p>5</p>
+                         </div> 
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box4">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Eggstravaganza Pack<span>IN STOCK: 5</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item5">
+                            <div id="pic5"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item6">
+                            <div id="pic6"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item7">
+                            <div id="pic7"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item8">
+                            <div id="pic8"></div>
+                         <p>1</p>
+                         </div> 
+
+                         <div id="item8">
+                            <div id="pic8"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box5">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Lucky Diamond Bundle<span>IN STOCK: 1</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box6">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Lucky Food Pack<span>IN STOCK: 1</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box7">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Ascended Supreme | Orbs </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box8">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Corrupted Time | Orbss </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box9">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Supreme Reaper Pack </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>5</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>7</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>7</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>50</p>
+                         </div>
+
+                         <div id="item5">
+                            <div id="pic5"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item6">
+                            <div id="pic6"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box10">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Supreme Phoenix Pack </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                        <div id="item1">
+                            <div id="pic1"></div>
+                         <p>5</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>7</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>7</p>
+                         </div>
+
+                         <div id="item4">
+                            <div id="pic4"></div>
+                         <p>50</p>
+                         </div>
+
+                         <div id="item5">
+                            <div id="pic5"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item6">
+                            <div id="pic6"></div>
+                         <p>5</p>
+                         </div>
+
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box11">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Lucky Diamond Pack<span>IN STOCK: 1</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box12">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Eternal Pack<span>IN STOCK: 5</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                         <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box13">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Arcana Pack<span>IN STOCK: 5</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                        <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>5</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+
+
+                <div id="box14">
+                    <div id="pic1" onclick="LoginClick()"> </div>
+                    <div id="text">
+                        <p id="text1">Heroic Pack<span>IN STOCK: 10</span> </p>
+    
+                    </div>
+                    <div id="itembox">
+
+                        <div id="item1">
+                            <div id="pic1"></div>
+                         <p>1</p>
+                         </div>
+
+                         <div id="item2">
+                            <div id="pic2"></div>
+                         <p>5</p>
+                         </div>
+
+                         <div id="item3">
+                            <div id="pic3"></div>
+                         <p>1</p>
+                         </div>
+
+                    </div>
+                    <div id="button1">
+    
+                        <button onclick="LoginClick()">LOGIN</button>
+    
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="gempack">
+
+            <p id="title">GEM PACKS - 10% WEB BONUS!</p>
+
+            <div id="boxes">
+
+                <div id="box1">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>3740 Gems</h5>
+                        <p>(3400 Gems + 340 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box2">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>1870 Gems</h5>
+                        <p>(1700 Gems + 170 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box3">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>880 Gems</h5>
+                        <p>(800 Gems + 80 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box4">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>512 Gems</h5>
+                        <p>(465 Gems + 47 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box5">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>330 Gems</h5>
+                        <p>(65 Gems + 7 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box6">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>154 Gems</h5>
+                        <p>(140 Gems + 14 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+                <div id="box7">
+                    <div id="pic"> </div>
+                    <div id="content">
+                        <h5>72 Gems</h5>
+                        <p>(65 Gems + 7 Web Bonus Gems)</p>
+                        <button onclick="LoginClick()">LOGIN</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="gift">
+
+            <p id="title">WEBSTORE GIFT!</p>
+            <p id="terms">Dragon City required. One redemption per Dragon City account. Terms apply.</p>
+
+            <div id="box1">
+                <div id="pic1" onclick="LoginClick()"></div>
+                <div id="text">
+                    <p>Daily Free Gift <span>IN STOCK: 1</span> </p>
+                </div>
+                <div id="itembox">
+                     <div id="pic1"></div>
+                     <p>1</p>
+                </div>
+                <div id="button1">
+
+                    <button onclick="LoginClick()">CLAIM GIFT</button>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="dailystreak">
+
+        <div id="pic"> </div>
+        <p>Daily Streak is live! Check in every day to claim your free reward.</p>
+        <a href="HTML/DailyStreak.html"><button>CLAIM NOW</button></a>
+    </div>
+
+
+    <div id="faq">
+
+        <h1>FAQ</h1><br><br>
+        <div id="questions">
+            
+            <h3>What is the Dragon City Store?</h3> <hr><br>
+            <p>The Dragon City Store is the official online marketplace for the Dragon City game.</p> <br>
+            
+            <h3>How do I connect to make a purchase? I'm having trouble.</h3> <hr><br>
+            <p>To make a purchase in the store, you must first sign in to your player account. To do this, access the store on the device you use to play the game, from your mobile device's default web browser. (Private/incognito mode is not supported.) Click the Connect banner at the top of the page, or start purchasing an item. This should open your game, then return you to the store. When you are signed in, you will see your username on the store page. If the game does not return you to the store, you may be on an older version of the game, the game might need to be restarted, or you might have an old cookie in your browser history.</p> <br>
+            <p>Please make sure your version is up-to-date; you can check this at the Play Store or iOS App Store. You can clear your browser history from your browser's history tab. If your game version is up-to-date, you can restart your game by closing and opening the game itself.</p> <br>
+            <p>For iOS: To quit the game, open the App Switcher, swipe right to find the game, then swipe up. To reopen the app, go to the Home Screen (or App Library), then tap the app.</p> <br>
+            <p>For Android: Force stop the game and open it again</p> <br>
+
+            <h3>How long does it take Dragon City Store purchases to show up in my game?</h3> <hr><br>
+            <p>Purchases made in the Dragon City Store should appear in your game almost immediately. In some rare instances, a game restart may be required.</p> <br>
+            <h3>How do I request a refund?</h3> <hr><br>
+            <p>If you have a Billing-related issue with your purchase from the Dragon City Store, please contact our Billing Support Team. Make sure to provide the following information about your purchase to further our investigation:</p> <br>
+            <p>The exact amount of the items you purchased, the approximate time of your purchase, and receipt confirmation numbers.</p> <br>
+            <p>Your player ID/UID or ZID:</p> <br>
+            <p>a. Locate the "Setting" widget within your game.</p> <br>
+            <p>b. Look for your user ID at the bottom.</p> <br>
+            <p>A screenshot of your purchase receipt which is not in pending status with your payment provider or the error you’re receiving.</p> <br>
+            
+            <h3>I'm on an Android device and I cannot login using the icon at the top right of my screen. What should I do?</h3> <hr><br>
+            <p>When this happens, this is likely an issue with your Game App settings. Please follow the steps below:</p> <br>
+            <p>1. Go to your device's settings menu.</p> <br>
+            <p>2. Go to Apps</p> <br>
+            <p>3. Click on the App for Dragon City</p> <br>
+            <p>4. Scroll down to Supported Links or Open by Default</p> <br>
+            <p>5. Click "Add Link" and allow the Game to use our login link</p> <br>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div id="footerd1">
+            <img src="https://i.imgur.com/vLdisNl.png" alt="image">
+        </div>
+        <div id="footerd2">
+            <a href="https://www.take2games.com/privacy/en-US/" id="linker">Privacy Policy</a>
+            <a href="https://www.take2games.com/legal/en-US/" id="linker">Terms of Service</a>
+            <a href="https://www.take2games.com/ccpa/en-US/" id="linker">CA Notice</a>
+            <a href="https://www.take2games.com/refund-policy/" id="linker">Refund Policy</a>
+            <a href="https://www.zynga.com/privacy/about-cookies" id="linker">Cookie Policy</a>
+            <a href="https://zyngasupport.helpshift.com/hc/en/119-zynga-store/" id="linker">Store Support</a>
+            <a href="https://socialpoint.helpshift.com/hc/en/7-dragon-city/" id="linker">Game Support</a>
+            <a href="#" onclick="LoginClick()" id="linker">Cookie Settings</a><br><br>
+            <p>©2024 Social Point S.L. Dragon City and the Dragon City logo are trademarks of Social Point S.L. All rights reserved. The Dragon City Store is operated by Zynga, Inc. Offers valid in-<br>game in Dragon City only. Offer availability and pricing varies by region.</p>
+        </div>
+        <div id="footerd3">
+            <select id="languageSelect">
+                <option>English</option>
+                <option>Filipino</option>
+                <option>Kapampangan</option>
+                <option>Japanese</option>
+                <option>Korean</option>
+                <option>Chinese</option>
+            </select>
+            <div id="Share"></div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
